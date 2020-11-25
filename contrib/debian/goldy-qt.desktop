@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SFN
+Comment=SFN P2P Cryptocurrency
+Comment[fr]=SFN, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SFN, eşten eşe kriptografik sanal para birimi
+Exec=surfnode-qt %u
+Terminal=false
+Type=Application
+Icon=surfnode128
+MimeType=x-scheme-handler/surfnode;
+Categories=Office;Finance;

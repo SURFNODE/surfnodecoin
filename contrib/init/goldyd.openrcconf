@@ -1,0 +1,26 @@
+# /etc/conf.d/surfnoded: config file for /etc/init.d/surfnoded
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/surfnode/surfnode.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/surfnoded"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/surfnoded.pid"
+
+# Where to write surfnoded data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/surfnoded"
+
+# User and group to own surfnoded process
+#BITCOIND_USER="surfnode"
+#BITCOIND_GROUP="surfnode"
+
+# Path to surfnoded executable
+#BITCOIND_BIN="/usr/bin/surfnoded"
+
+# Nice value to run surfnoded under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

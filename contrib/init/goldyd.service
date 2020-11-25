@@ -1,0 +1,26 @@
+[Unit]
+Description=SURFNODE's distributed currency daemon
+After=network.target
+
+[Service]
+User=surfnode
+Group=surfnode
+
+Type=forking
+PIDFile=/var/lib/surfnoded/surfnoded.pid
+
+ExecStart=/usr/bin/surfnoded -daemon -pid=/var/lib/surfnoded/surfnoded.pid \
+          -conf=/etc/surfnode/surfnode.conf -datadir=/var/lib/surfnoded
+
+ExecStop=-/usr/bin/surfnode-cli -conf=/etc/surfnode/surfnode.conf \
+         -datadir=/var/lib/surfnoded stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
