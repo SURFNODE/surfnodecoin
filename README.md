@@ -52,7 +52,7 @@ SurfNode coin cryptocurrency using X11 algorithm - PoW/PoS/MN
 
 •	block 20 to 1000: 10% of block reward
 
-•	block 1,0001 to infinite: 50% of block reward
+•	block 1,001 to infinite: 50% of block reward
 
 •	PoS:
 ====
