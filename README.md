@@ -2,6 +2,8 @@
 
 SurfNode coin cryptocurrency using X11 algorithm - PoW/PoS/MN
 ====
+Block explorer: http://149.28.39.205/
+
 •	p2p port: 6664
 
 •	rpc port: 6665
