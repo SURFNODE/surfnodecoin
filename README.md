@@ -1,6 +1,6 @@
 ![](logo/surfnode.jpg)
 
-Block explorer: http://149.28.39.205/
+Block explorer: http://149.28.39.205
 ===
 
 SurfNode coin cryptocurrency using X11 algorithm - PoW/PoS/MN
