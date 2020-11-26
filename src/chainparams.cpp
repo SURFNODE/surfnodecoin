@@ -168,9 +168,9 @@ public:
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = true;
-        fSkipProofOfWorkCheck = false;
+        fSkipProofOfWorkCheck = true;
         fTestnetToBeDeprecatedFieldRPC = false;
-        fHeadersFirstSyncingActive = false;
+        fHeadersFirstSyncingActive = true;
 
         nPoolMaxTransactions = 5;
         strSporkKey = "04e907826a238aa3902d140f1884f7a47ab883b5c5c9a8da91cec353a263e34eb1af3e7f21f5323e1cd29f73d9694aa91a5ba67505651648f08f33a5";
