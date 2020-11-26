@@ -106,13 +106,13 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Surfnode: 1 minute (aka every block)
         nTargetSpacing = 1 * 60;  // Surfnode: 1 minute
-        nLastPOWBlock = 10000;
-        nMaturity = 10;
+        nLastPOWBlock = 200000;
+        nMaturity = 20;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 510;
         nMaxMoneyOut = 2000000 * COIN;
-        nNewMasternodeCollateral_StartBlock = 20; // Nov 7, 2018 (approximately)
-	nNewMasternodeCollateral_GPBlock = 20; // 1 week grace period to allow for masternodes to activate using the new collateral
+        nNewMasternodeCollateral_StartBlock = 20;
+	nNewMasternodeCollateral_GPBlock = 20;
         nNewMasternode_Collateral = 200;
         nOriginalMasternode_Collateral = 200;
         nBudget_Fee_Confirmations = 10; // Number of confirmations for the finalization fee
@@ -149,7 +149,7 @@ public:
         assert(hashGenesisBlock == uint256("0x0000abaca0504089970307a7ceef1c04710ef2ec8642a0ace206a70d5df7534c"));
         assert(genesis.hashMerkleRoot == uint256("0x813d21d6cad825c3ef7045302dc9e213bf566a07739421e9f959a6db65ffbbcf"));
 
-        vSeeds.push_back(CDNSSeedData("107.191.37.224", "107.191.37.224"));
+        vSeeds.push_back(CDNSSeedData("149.28.39.205", "149.28.39.205"));
      
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
@@ -174,7 +174,7 @@ public:
 
         nPoolMaxTransactions = 5;
         strSporkKey = "04e907826a238aa3902d140f1884f7a47ab883b5c5c9a8da91cec353a263e34eb1af3e7f21f5323e1cd29f73d9694aa91a5ba67505651648f08f33a5";
-        strObfuscationPoolDummyAddress = "saZg3oLV5fA5evu4Hm64LSJYjZWocEzoGL";
+        strObfuscationPoolDummyAddress = "SNRntm3EAdBj1ssxMpoMfHfWnKCL3t3EQG";
         nStartMasternodePayments = 1605219735;
     }
 
