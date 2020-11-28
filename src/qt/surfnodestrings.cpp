@@ -209,10 +209,10 @@ QT_TRANSLATE_NOOP("surfnode-core", ""
 QT_TRANSLATE_NOOP("surfnode-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("surfnode-core", "(30001 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("surfnode-core", "(6664 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("surfnode-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("surfnode-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("surfnode-core", "(must be 30001 for mainnet)"),
+QT_TRANSLATE_NOOP("surfnode-core", "(must be 6664 for mainnet)"),
 QT_TRANSLATE_NOOP("surfnode-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("surfnode-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("surfnode-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
